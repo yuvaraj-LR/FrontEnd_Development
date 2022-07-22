@@ -1,0 +1,41 @@
+/* Border Property */
+
+#allSideBorder {
+    border: 5px;
+    border-style: dashed;
+    background: pink;
+}
+
+#specificBorder {
+    border: darkorchid double;
+    background: rgb(188, 133, 133);
+    border: 25px 50px 15px 20px;
+}
+
+#allSideMargin {
+    border: 10px black groove;
+    margin: 50px;
+    background: rgb(82, 148, 82);
+}
+
+#specificSideMargin {
+    border: 10px black groove;
+    /* Top and Left margin will be changed. */
+    margin: 50px 0px 0px 50px;
+    background: rgb(82, 95, 148);
+}
+
+#specificSidePadding {
+    border: 10px black groove;
+    /* Only left and bottom will be changed. */
+    margin: 0px 0px 50px 50px ;
+    padding: 50px;
+    background: rgb(162, 158, 80);
+}
+
+#allSidePadding {
+    border: 10px black groove;
+    margin: 50px;
+    padding: 50px;
+    background: rgb(158, 79, 140);
+}

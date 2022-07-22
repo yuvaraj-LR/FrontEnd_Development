@@ -1,0 +1,27 @@
+/* Float Property */
+img {
+    width: 150px;
+    height: 150px;
+    float: inline-end;
+}
+
+/* Z-Index Property */
+#div1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: rgb(99, 207, 207);
+    position: relative;
+    top: 350px;
+    z-index: 2;
+}
+
+#div2 { 
+    width: 1000px;
+    height: 1000px;
+    float: left;
+    background-color: brown;
+    position: relative;
+    z-index: 1;
+}
+

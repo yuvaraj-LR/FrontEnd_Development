@@ -1,0 +1,1 @@
+console.log("Hello, this is the example code to be run in the node.")

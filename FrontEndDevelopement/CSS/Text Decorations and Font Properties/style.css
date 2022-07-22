@@ -1,0 +1,47 @@
+/* Define color by colorname */
+.color1 {
+    color: red;
+}
+
+/* Define color by hexCode */
+.color2 {
+    color: #FFF003;
+}
+
+/* Define color by rgb values */
+.color3{
+    color: rgb(114, 42, 89);
+}
+
+/* Text-Alignment */
+.align {
+    text-align: center;
+}
+
+/* Define the spaces b/w each letters. */
+.letterSpacing {
+    letter-spacing: 5px;
+}
+
+/* Define the spaces b/w each words. */
+.wordSpacing {
+    word-spacing: 10px;
+}
+
+/* Text-Decoration */
+.textDeco {
+    text-decoration: line-through;
+}
+
+/* Text-transform */
+.textTrans {
+    text-transform: uppercase;
+}
+
+/* Font Style Property */
+.textStyle {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 50px;
+}

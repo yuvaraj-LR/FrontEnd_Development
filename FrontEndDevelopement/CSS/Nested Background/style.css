@@ -1,0 +1,19 @@
+#bgImage {
+    background-image: url(WallpaperDog-20516969.jpg);
+    height: 300px;
+    width: 100%;
+    padding: 40px;
+}
+
+#textArea {
+    padding: 30px;
+    background-color: rgb(232, 188, 188);
+    width: 93%;
+    height: 250px;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.text {
+    color: #000;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <style>
+        #heading {
+            color: red;
+        }
+        
+        button {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This page shows how the event occurs and how it works.</h2>
+
+    <h1 id="heading">Headphones in cheaper prize.</h1>
+
+    <button onclick="click()">Buy now</button>
+    <p id="para">This offer is only for 1 day.</p>
+
+    <script src="index.js">
+        function click() {
+            document.getElementById("para").innerHTML = "Thanks for buying";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/* Max Width */
+#div1 {
+    width: 100%;
+    min-width: 800px;
+    max-width: 1400px;
+    background-color: blueviolet;
+    height: 600px;
+}
+
+/* Max Height */
+#div2 {
+    width: auto;
+    height: 100vh;
+    background-color: blueviolet;
+}

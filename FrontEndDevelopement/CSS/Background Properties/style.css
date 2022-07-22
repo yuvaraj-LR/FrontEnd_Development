@@ -1,0 +1,25 @@
+/* Background by color. */
+#div1 {
+    border: 3px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+/* Background by image. */
+#div2 {
+    border: 3px solid black;
+    width: 100%;
+    height: 400px;
+    background-image: url(WallpaperDog-20516969.jpg);
+}
+
+/* Text transparancy. */
+.opacity {
+    opacity: 0.4;
+}
+
+/* Text Hover */
+.opacity:hover {
+    opacity: 1.0;
+}

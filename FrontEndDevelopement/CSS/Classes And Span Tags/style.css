@@ -1,0 +1,21 @@
+/* Classes */
+
+.boldbluesmall {
+    font: bold;
+    color: blue;
+    size: small;
+}
+
+.italicGreen {
+    font: smaller;
+    color: green;
+    size: 16px;
+}
+
+/* Span tags */
+span {
+    font: 900;
+    color: pink;
+}
+
+

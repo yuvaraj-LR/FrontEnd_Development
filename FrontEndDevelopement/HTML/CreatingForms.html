@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 align = "center">Creating a form to an Employee.</h2>
+    <form action="send.php" method="post" name="employment">
+        <table width="600" border="5" cellspacing="2" cellpadding="2" bordercolor="orange">
+            <tr>
+                <td colspan="2" align="center">Employee Application</td>
+            </tr>
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" name="fname" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Second Name: </td>
+                <td><input type="text" name="fname" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>
+                    <select name="position" id="">
+                        <option value="FD">FrontEnd-Developer</option>
+                        <option value="BE">BackEnd-Developer</option>
+                        <option value="FS">FullStack-Developer</option>
+                        <option value="SA">Security Analysist</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Experience</td>
+                <td>
+                    <select name="position" id="">
+                        <option value="JR">Junior</option>
+                        <option value="SR">Senior</option>
+                        <option value="ER">Experienced</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Job Type</td>
+                <td>
+                    <input type="checkbox" name="ft"> Full-Time
+                    <input type="checkbox" name="pt"> Part-Time
+                    <input type="checkbox" name="fl"> FreeLancer
+                </td>
+            </tr>
+            <tr>
+                <td>Employment Status</td>
+                <td>
+                    <input type="radio" name="em"> Employeed
+                    <input type="radio" name="em"> UnEmployeed
+                    <input type="radio" name="em"> Study
+                </td>
+            </tr>
+            <tr>
+                <td>Other Detail</td>
+                <td>
+                    <textarea name="ff" id="" cols="45" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" align="centre">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
